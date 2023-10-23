@@ -1,0 +1,28 @@
+body{
+    background-image: url(fotos/colagem-de-fundo-de-filme.jpg);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+    background-color: #272626;
+    overflow: hidden;
+}
+
+img{
+    width: 120px;
+}
+
+.scrollable-content {
+    max-height: 150px; /* Altura máxima da área de rolagem */
+    overflow: auto; /* Adiciona uma barra de rolagem quando necessário */
+}
